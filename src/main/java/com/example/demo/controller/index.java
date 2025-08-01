@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class index {
     @GetMapping("/")
     public String home() {
-        return "hello world";
+        return "hello world from docker/jenkins";
     }
 
 }
